@@ -37,9 +37,11 @@ For example, if a person’s height is listed as 6 m, it is most likely incorrec
 generally, data points that are inconsistent with the remaining data distribution are
 often noisy. Such data points are referred to as outliers. It is, however, dangerous
 to assume that such data points are always caused by errors. For example, a record
+
+Data Mining : The Text Book ( Charu C. Aggarwal )
 representing credit card fraud is likely to be inconsistent with respect to the patterns
 in most of the (normal) data but should not be removed as “incorrect” data.
-3. Scaling and normalization: The data may often be expressed in very diﬀerent scales
+4. Scaling and normalization: The data may often be expressed in very diﬀerent scales
 (e.g., age and salary). This may result in some features being inadvertently weighted
 too much so that the other features are implicitly ignored. Therefore, it is important
 to normalize the diﬀerent features.
